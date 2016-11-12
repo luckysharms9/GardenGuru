@@ -9,7 +9,8 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class MainActivity extends Activity {
-    Button button;
+    Button mygarden;
+    Button plants;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -18,15 +19,25 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         // Locate the button in activity_main.xml
-        button = (Button) findViewById(R.id.mygarden);
+        mygarden = (Button) findViewById(R.id.mygarden);
+        plants = (Button) findViewById(R.id.plants);
 
         // Capture button clicks
-        button.setOnClickListener(new OnClickListener() {
+        mygarden.setOnClickListener(new OnClickListener() {
             public void onClick(View arg0) {
 
                 // Start NewActivity.class
                 Intent myIntent = new Intent(MainActivity.this,
                         Main2Activity.class);
+                startActivity(myIntent);
+            }
+        });
+        plants.setOnClickListener(new OnClickListener() {
+            public void onClick(View arg0) {
+
+                // Start NewActivity.class
+                Intent myIntent = new Intent(MainActivity.this,
+                        Main3Activity.class);
                 startActivity(myIntent);
             }
         });
@@ -37,4 +48,6 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.layout.activity_main, menu);
         return true;
     }
+
+
 }

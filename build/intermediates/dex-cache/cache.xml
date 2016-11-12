@@ -34,8 +34,17 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="392aeecea655c5d1b9491c2e677d550c200fca2b">
+        sha1="050100565ef1d9e9685606e8833b0fbded5d7afc">
         <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_98c48f8ecf0b10e7207d8750f803bf67dc24e6e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1c7a0f627c5ca58f8cd5b41afed8c51cca2ef0d2">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_cdb7fb0eb312f700bbf636d8d448918ab1f53610\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -45,15 +54,6 @@
         revision="25.0.0"
         sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
         <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_83ea02d84fa8e25345bdb449b06e184c4123b615\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4b8e80e14f5ea6b7213a6881dfb5936df5d897d0">
-        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_cdb7fb0eb312f700bbf636d8d448918ab1f53610\classes.dex" />
     </item>
     <item
         is-multidex="true"
