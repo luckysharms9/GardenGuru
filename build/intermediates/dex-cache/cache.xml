@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_36d7ed55391c676b5da4d62e21181279eab03d15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_39c1943fe5249330ee5723502c245777c667eab9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_9969b00f53fdcb0ee9a1ff042bdd4dadd7de29ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="392aeecea655c5d1b9491c2e677d550c200fca2b">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_98c48f8ecf0b10e7207d8750f803bf67dc24e6e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_83ea02d84fa8e25345bdb449b06e184c4123b615\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b8e80e14f5ea6b7213a6881dfb5936df5d897d0">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_cdb7fb0eb312f700bbf636d8d448918ab1f53610\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_c0f9ec4c9263e72d9f8048a99fd96a0351dcf2de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_8934a8443cd850fd3e776e94056703b4732d29c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_b540ca7c99e396a770fa9b2e779745a9ef9e07a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_7a6af04d90c756a2348663bb379e00bf5847c410\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_dc3fc891574bd22fc3768144b51efe9506f66f31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_10a10137e91547dbc757946204ffc3e4355f62b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_e7b723d41bd0b123fcfc9545831774afc478d557\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_b489b5bf807f100a861e6cb2d7a647e8d4c8a09d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_8a30fdcf497814233b046f575873ce6acc3ba166\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_114e7908a7be2614a301108a9e3f7aaed27bfe55\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\S\Documents\GitHub\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_35ea48cc73030e79a1d5abebf7d55aa49fc28fa9\classes.dex" />
+    </item>
+
+</items>
