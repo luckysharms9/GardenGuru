@@ -18,25 +18,25 @@
 
     <Button
         android:text="My Garden"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="135dp"
-        android:id="@+id/mygarden" />
+        android:id="@+id/mygarden"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
 
     <Button
         android:text="Plants"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_centerVertical="true"
         android:layout_alignEnd="@+id/mygarden"
         android:id="@+id/plants" />
 
     <Button
         android:text="Inspire Me!"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/plants"
         android:layout_alignStart="@+id/plants"
         android:layout_marginTop="37dp"
@@ -44,19 +44,19 @@
 
     <Button
         android:text="Weather"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/inspireme"
         android:layout_marginBottom="36dp"
         android:id="@+id/weather" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         app:srcCompat="@drawable/gguru"
         android:layout_below="@+id/textView"
         android:layout_toEndOf="@+id/inspireme"
         android:layout_marginTop="29dp"
-        android:id="@+id/imageView" />
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
 </RelativeLayout>
