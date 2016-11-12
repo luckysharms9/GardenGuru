@@ -11,4 +11,6 @@ public class Main2Activity extends AppCompatActivity {
         // Get the view from new_activity.xml
         setContentView(R.layout.main2activity);
     }
+
+
 }

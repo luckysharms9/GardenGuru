@@ -1,14 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
+    <ImageButton
+        app:srcCompat="@drawable/gguru"
+        android:id="@+id/imageButton"
+        android:background="@android:color/background_light"
+        android:layout_marginStart="17dp"
+        android:scaleType="fitEnd"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
     <TextView
+        android:text="My Garden"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:padding="10dp"
-        tools:context="com.example.sharmy.gardenguru.Main2Activity"/>
+        android:id="@+id/textView3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold"
+        android:textAlignment="textStart"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/black"
+        tools:text="My Garden" />
+
+    <Button
+        android:text="Add New Garden"
+        android:id="@+id/button4"
+        android:background="@drawable/drawablehome_button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:textStyle="normal|bold"
+        android:visibility="visible"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="14dp"
+        android:layout_below="@+id/textView3"
+        android:layout_toEndOf="@+id/imageButton" />
 
 </RelativeLayout>
