@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -13,5 +14,49 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Welcome to Garden Guru!" />
+
+    <Button
+        android:text="My Garden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:id="@+id/mygarden" />
+
+    <Button
+        android:text="Plants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/mygarden"
+        android:id="@+id/plants" />
+
+    <Button
+        android:text="Inspire Me!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plants"
+        android:layout_alignStart="@+id/plants"
+        android:layout_marginTop="37dp"
+        android:id="@+id/inspireme" />
+
+    <Button
+        android:text="Weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/inspireme"
+        android:layout_marginBottom="36dp"
+        android:id="@+id/weather" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gguru"
+        android:layout_below="@+id/textView"
+        android:layout_toEndOf="@+id/inspireme"
+        android:layout_marginTop="29dp"
+        android:id="@+id/imageView" />
 </RelativeLayout>
