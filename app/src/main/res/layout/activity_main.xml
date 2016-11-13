@@ -18,6 +18,7 @@
 
     <Button
         android:text="My Garden"
+        android:background="@drawable/drawablehome_button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="135dp"
         android:id="@+id/mygarden"
@@ -27,6 +28,7 @@
 
     <Button
         android:text="Inspire Me!"
+        android:background="@drawable/drawablehome_button"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_below="@+id/plants"
@@ -37,6 +39,7 @@
 
     <Button
         android:text="Weather"
+        android:background="@drawable/drawablehome_button"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:id="@+id/weather"
@@ -47,6 +50,7 @@
 
     <Button
         android:text="Plants"
+        android:background="@drawable/drawablehome_button"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:id="@+id/plants"

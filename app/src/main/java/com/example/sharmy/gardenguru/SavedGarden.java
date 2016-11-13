@@ -14,5 +14,18 @@ public class SavedGarden extends AppCompatActivity {
         setContentView(R.layout.activity_saved_garden);
     }
 
+    public void buttonAddPlant(View v){
+        Button button = (Button) v;
+        Intent myIntent = new Intent(SavedGarden.this, Main3Activity.class);
+        startActivity(myIntent);
+    }
+
+    public void GardenSpecs(View v){
+        Button button = (Button) v;
+        Intent myIntent = new Intent(SavedGarden.this, GardenSpecs.class);
+        startActivity(myIntent);
+    }
+
+
 
 }
