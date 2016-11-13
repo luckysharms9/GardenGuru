@@ -88,5 +88,40 @@
         android:layout_below="@+id/textView10"
         android:layout_alignStart="@+id/textView10" />
 
+    <android.support.design.widget.TabLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true">
+
+        <android.support.design.widget.TabItem
+            android:text="My Garden"
+            android:icon="@drawable/ic_action_name_me"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/myText"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:forceHasOverlappingRendering="true" />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tabItem"
+            android:text="Plants"
+            android:icon="@drawable/ic_action_name" />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inspire Me"
+            android:icon="@drawable/ic_action_name_light" />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Weather"
+            android:icon="@drawable/ic_action_name_sun" />
+    </android.support.design.widget.TabLayout>
+
 
 </RelativeLayout>
