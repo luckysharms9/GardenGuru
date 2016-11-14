@@ -17,7 +17,7 @@
 
         <android.support.design.widget.TabItem
             android:text="My Garden"
-            android:icon="@drawable/ic_action_name_me"
+            android:icon="@drawable/ic_action_name"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:id="@+id/myText"
@@ -44,6 +44,13 @@
             android:text="Weather"
             android:icon="@drawable/ic_action_name_sun" />
     </android.support.design.widget.TabLayout>
+
+    <ListView
+        android:id="@+id/listDemo"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:drawSelectorOnTop="false"
+        />
 
 
 </RelativeLayout>
