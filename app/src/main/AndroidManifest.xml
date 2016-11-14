@@ -17,7 +17,8 @@
         <activity android:name=".AddGarden" />
         <activity android:name=".Main3Activity" />
         <activity android:name=".SavedGarden" />
-        <activity android:name=".GardenSpecs"></activity>
+        <activity android:name=".GardenSpecs" />
+        <activity android:name=".tomatoes"></activity>
     </application>
 
 </manifest>

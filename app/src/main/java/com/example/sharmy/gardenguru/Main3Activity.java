@@ -1,8 +1,11 @@
 package com.example.sharmy.gardenguru;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -11,6 +14,7 @@ import java.util.List;
 
 public class Main3Activity extends Activity {
     private ListView lv;
+
 
     public void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
@@ -40,5 +44,21 @@ public class Main3Activity extends Activity {
 
         lv.setAdapter(arrayAdapter);
 
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick (AdapterView < ? > arrayAdapter, View view,int position, long arg){
+                if (position == 0) {
+                    Intent appInfo = new Intent(Main3Activity.this, tomatoes.class);
+                    startActivity(appInfo);
+                }
+                /**if(position==1){
+                 Intent english=new Intent(SwahiliService.this,EnglishService.class);
+                 startActivity(english);
+                 }
+                 if(position==2){
+                 Toast.makeText(getApplicationContext(),"You have selected pst3", Toast.LENGTH_LONG).show();
+                 }**/
+            }
+        });
     }
 }
