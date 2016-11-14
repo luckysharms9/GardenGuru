@@ -57,21 +57,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\S\Documents\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="C:\Users\S\Documents\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_09a2470aa3a86880860a7c8edc99f482905b76e8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\S\Documents\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
         <dex dex="C:\Users\S\Documents\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_154574cf30592309d5372ffdc004fdb4e9471c26\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\S\Documents\GardenGuru\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\S\Documents\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_09a2470aa3a86880860a7c8edc99f482905b76e8\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -115,7 +115,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="33db220726ccb1a8c1f34d858c43f1658c1b3d14">
+        sha1="b6950fe5b5dab8f2f00418da42431303b1f33a2e">
         <dex dex="C:\Users\S\Documents\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_79bc4a0089a974f6e0e97fac8cada0f762799947\classes.dex" />
     </item>
     <item
@@ -160,7 +160,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="b9026dc5699444aa499e2045d41b1f64a4ce258b">
+        sha1="f71732d0a354800a80e9ce9bb017fdfc177a7130">
         <dex dex="C:\Users\S\Documents\GardenGuru\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_bb8bcdbe8d057c7637a4c15eca8bafb222417472\classes.dex" />
     </item>
     <item

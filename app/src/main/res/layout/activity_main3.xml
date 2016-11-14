@@ -46,11 +46,10 @@
     </android.support.design.widget.TabLayout>
 
     <ListView
-        android:id="@+id/listDemo"
+        android:id="@+id/listView"
         android:layout_width="400dp"
         android:layout_height="400dp"
-        android:drawSelectorOnTop="false"
-        />
+        android:drawSelectorOnTop="false" />
 
 
 </RelativeLayout>

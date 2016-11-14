@@ -2,63 +2,40 @@ package com.example.sharmy.gardenguru;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.HeaderViewListAdapter;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main3Activity extends AppCompatActivity {
-    //LIST OF ARRAY STRINGS WHICH WILL SERVE AS LIST ITEMS
-    ArrayList<String> listItems = new ArrayList<String>();
+    private ListView lv;
 
-    //DEFINING A STRING ADAPTER WHICH WILL HANDLE THE DATA OF THE LISTVIEW
-    ArrayAdapter<String> adapter;
-
-    //RECORDING HOW MANY TIMES THE BUTTON HAS BEEN CLICKED
-    int clickCounter = 0;
-    private ListView mListView;
-
-    @Override
-    public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
+    public void onCreate(Bundle saveInstanceState) {
         setContentView(R.layout.activity_main3);
 
-        if (mListView == null) {
-            mListView = (ListView) findViewById(R.id.listDemo);
-        }
+        lv = (ListView) findViewById(R.id.listView);
 
-        adapter = new ArrayAdapter<String>(this,
+        // Instantiating an array list
+        List<String> plants_array_list = new ArrayList<>();
+        plants_array_list.add("Tomatoes");
+        plants_array_list.add("Kohlrabi");
+        plants_array_list.add("Daisies");
+        plants_array_list.add("Roses");
+        plants_array_list.add("Potatoes");
+        plants_array_list.add("Strawberries");
+        plants_array_list.add("Chrysanthemum");
+        plants_array_list.add("Sunflower");
+        plants_array_list.add("Petunia");
+
+        // This is the array adapter, it takes the context of the activity as a
+        // first parameter, the type of list view as a second parameter and your
+        // array as a third parameter.
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(
+                this,
                 android.R.layout.simple_list_item_1,
-                listItems);
-        setListAdapter(adapter);
-    }
+                plants_array_list);
 
-    //METHOD WHICH WILL HANDLE DYNAMIC INSERTION
-    public void addItems(View v) {
-        listItems.add("Clicked : " + clickCounter++);
-        adapter.notifyDataSetChanged();
-    }
-
-    protected ListView getListView() {
-        if (mListView == null) {
-            mListView = (ListView) findViewById(R.id.listDemo);
-        }
-        return mListView;
-    }
-
-    protected void setListAdapter(ListAdapter adapter) {
-        getListView().setAdapter(adapter);
-    }
-
-    protected ListAdapter getListAdapter() {
-        ListAdapter adapter = getListView().getAdapter();
-        if (adapter instanceof HeaderViewListAdapter) {
-            return ((HeaderViewListAdapter) adapter).getWrappedAdapter();
-        } else {
-            return adapter;
-        }
+        lv.setAdapter(arrayAdapter);
     }
 }
