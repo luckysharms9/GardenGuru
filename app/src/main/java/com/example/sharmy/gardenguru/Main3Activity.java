@@ -1,5 +1,6 @@
 package com.example.sharmy.gardenguru;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
@@ -8,10 +9,11 @@ import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main3Activity extends AppCompatActivity {
+public class Main3Activity extends Activity {
     private ListView lv;
 
     public void onCreate(Bundle saveInstanceState) {
+        super.onCreate(saveInstanceState);
         setContentView(R.layout.activity_main3);
 
         lv = (ListView) findViewById(R.id.listView);
@@ -37,5 +39,6 @@ public class Main3Activity extends AppCompatActivity {
                 plants_array_list);
 
         lv.setAdapter(arrayAdapter);
+
     }
 }
