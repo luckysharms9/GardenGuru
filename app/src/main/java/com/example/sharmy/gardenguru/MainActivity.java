@@ -32,15 +32,15 @@ public class MainActivity extends Activity {
                 startActivity(myIntent);
             }
         });
-        plants.setOnClickListener(new OnClickListener() {
-            public void onClick(View arg0) {
-
-                // Start NewActivity.class
-                Intent myIntent = new Intent(MainActivity.this,
-                        Main3Activity.class);
-                startActivity(myIntent);
-            }
-        });
+//        plants.setOnClickListener(new OnClickListener() {
+//            public void onClick(View arg0) {
+//
+//                // Start NewActivity.class
+//                Intent myIntent = new Intent(MainActivity.this,
+//                        Main3Activity.class);
+//                startActivity(myIntent);
+//            }
+//        });
 
     }
 
@@ -49,6 +49,10 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.layout.activity_main, menu);
         return true;
     }
-
+    public void buttonPlants(View v){
+        Button button = (Button) v;
+        Intent myIntent = new Intent(MainActivity.this, Main3Activity.class);
+        startActivity(myIntent);
+    }
 
 }

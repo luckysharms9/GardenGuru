@@ -43,16 +43,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
-    <ImageButton
-        android:src="@drawable/gguru"
-        android:id="@+id/imageButton2"
-        android:background="@android:color/background_light"
-        android:scaleType="fitEnd"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
-
     <TextView
         android:text="My Garden"
         android:layout_width="wrap_content"
@@ -145,6 +135,16 @@
             android:text="Weather"
             android:icon="@drawable/ic_action_name_sun" />
     </android.support.design.widget.TabLayout>
+
+    <ImageButton
+        android:src="@drawable/gguru"
+        android:id="@+id/imageButton2"
+        android:background="@android:color/background_light"
+        android:scaleType="fitEnd"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>

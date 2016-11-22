@@ -65,7 +65,7 @@
         android:layout_height="20dp" />
 
     <ImageView
-        app:srcCompat="@drawable/tomatoes"
+        app:srcCompat="@drawable/tomatoplant"
         android:id="@+id/imageView2"
         android:layout_height="150dp"
         android:layout_width="150dp"
