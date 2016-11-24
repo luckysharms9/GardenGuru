@@ -18,7 +18,13 @@
         <activity android:name=".Main3Activity" />
         <activity android:name=".SavedGarden" />
         <activity android:name=".GardenSpecs" />
-        <activity android:name=".tomatoes"></activity>
+        <activity android:name=".tomatoes" />
+        <activity android:name=".Confirm"
+            android:theme="@style/AppTheme.popupStyle"></activity>
+
+
+
+
     </application>
 
 </manifest>

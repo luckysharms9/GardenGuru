@@ -12,7 +12,6 @@
     tools:backgroundTint="?android:attr/textColorSecondaryInverseNoDisable"
     tools:background="@color/colorPrimaryDark"
     android:background="@color/colorPrimaryDark"
-    android:backgroundTint="@color/colorPrimaryDark"
-    android:backgroundTintMode="screen">
+    android:backgroundTint="@color/colorPrimaryDark">
 
 </RelativeLayout>
