@@ -52,7 +52,8 @@
         android:id="@+id/button7"
         android:layout_height="50dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="buttonConfirm" />
 
     <TextView
         android:text="Tomatoes"
