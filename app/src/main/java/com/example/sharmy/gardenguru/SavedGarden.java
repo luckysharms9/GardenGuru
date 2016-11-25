@@ -26,6 +26,12 @@ public class SavedGarden extends AppCompatActivity {
         startActivity(myIntent);
     }
 
+    public void browsePlant(View v){
+        Button button = (Button) v;
+        Intent myIntent = new Intent(SavedGarden.this, Main3Activity.class);
+        startActivity(myIntent);
+    }
+
 
 
 }
