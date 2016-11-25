@@ -1,6 +1,4 @@
 <resources>
     <string name="app_name">GardenGuru</string>
     <string name="My_Garden">mygarden</string>
-
-    <string name="action_settings">Settings</string>
 </resources>

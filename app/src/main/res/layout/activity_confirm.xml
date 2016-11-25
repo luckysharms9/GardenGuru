@@ -9,10 +9,9 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.sharmy.gardenguru.Confirm"
-    tools:backgroundTint="?android:attr/textColorSecondaryInverseNoDisable"
-    tools:background="@color/colorPrimaryDark"
-    android:background="@color/colorPrimaryDark"
-    android:backgroundTint="@color/colorPrimaryDark">
+    android:background = "#EED5D2">
+
+    <!-- Header is above ListView -->
 
     <ListView
         android:id="@+id/garden_list"

@@ -5,12 +5,18 @@ import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 
 public class Confirm extends AppCompatActivity {
 
     // Array of strings
     String[] gardenArray = {"Tomato", "Patio", "Stuff"};
+
+    LayoutInflater layoutinflater;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,8 +33,25 @@ public class Confirm extends AppCompatActivity {
 
         ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.activity_listview, gardenArray);
 
+
+
+
         ListView listView = (ListView) findViewById(R.id.garden_list);
+
+
+        layoutinflater = getLayoutInflater();
+
+        ViewGroup header = (ViewGroup)layoutinflater.inflate(R.layout.header,listView,false);
+
+        listView.addHeaderView(header);
+
         listView.setAdapter(adapter);
+
+
+
+
+
+
 
     }
 }
