@@ -11,11 +11,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.sharmy.gardenguru.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to Garden Guru!" />
-
     <Button
         android:text="My Garden"
         android:background="@drawable/drawablehome_button"
@@ -64,10 +59,18 @@
     <ImageView
         android:src="@drawable/gguru"
         android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="17dp"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="50dp" />
+        android:layout_width="75dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:layout_height="75dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Garden Guru!"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
