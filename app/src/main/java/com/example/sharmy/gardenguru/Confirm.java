@@ -16,7 +16,7 @@ import android.view.ViewGroup;
 public class Confirm extends AppCompatActivity {
 
     // Array of strings
-    String[] gardenArray = {"Tomato", "Patio", "Stuff"};
+    String[] gardenArray = {"Tomato", "Patio", "Backyard"};
 
     LayoutInflater layoutinflater;
 

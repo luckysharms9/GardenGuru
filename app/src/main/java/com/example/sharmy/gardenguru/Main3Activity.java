@@ -12,7 +12,7 @@ import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main3Activity extends Activity {
+public class Main3Activity extends AppCompatActivity{
     private ListView lv;
 
 
