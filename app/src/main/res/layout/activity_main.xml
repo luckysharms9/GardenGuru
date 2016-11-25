@@ -35,7 +35,8 @@
         android:layout_alignStart="@+id/plants"
         android:layout_marginTop="37dp"
         android:id="@+id/inspireme"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:onClick="buttonInspireMe" />
 
     <Button
         android:text="Weather"

@@ -55,4 +55,12 @@ public class MainActivity extends Activity {
         startActivity(myIntent);
     }
 
+    public void buttonInspireMe(View v){
+        Button button = (Button) v;
+        Intent myIntent = new Intent(MainActivity.this, InspirationWall.class);
+        startActivity(myIntent);
+    }
+
+
+
 }

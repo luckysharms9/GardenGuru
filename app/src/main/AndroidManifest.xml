@@ -22,10 +22,10 @@
         <activity
             android:name=".Confirm"
             android:theme="@style/AppTheme.popupStyle" />
-        <activity android:name=".confirmation"
-            android:theme="@style/AppTheme.popupStyle"
-            ></activity>
-
+        <activity
+            android:name=".confirmation"
+            android:theme="@style/AppTheme.popupStyle" />
+        <activity android:name=".InspirationWall"></activity>
     </application>
 
 </manifest>
