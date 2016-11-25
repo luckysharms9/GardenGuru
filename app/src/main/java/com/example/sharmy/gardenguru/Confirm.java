@@ -51,7 +51,7 @@ public class Confirm extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> arrayAdapter, View view, int position, long arg) {
                 if (position == 1) {
-                    Intent appInfo = new Intent(Confirm.this, GardenSpecs.class);
+                    Intent appInfo = new Intent(Confirm.this, confirmation.class);
                     startActivity(appInfo);
                 }
                 /**if(position==1){

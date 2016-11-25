@@ -19,11 +19,12 @@
         <activity android:name=".SavedGarden" />
         <activity android:name=".GardenSpecs" />
         <activity android:name=".tomatoes" />
-        <activity android:name=".Confirm"
-            android:theme="@style/AppTheme.popupStyle"></activity>
-
-
-
+        <activity
+            android:name=".Confirm"
+            android:theme="@style/AppTheme.popupStyle" />
+        <activity android:name=".confirmation"
+            android:theme="@style/AppTheme.popupStyle"
+            ></activity>
 
     </application>
 
