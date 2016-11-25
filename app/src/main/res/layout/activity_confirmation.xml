@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_confirmation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"><![CDATA[
+    tools:context="com.example.sharmy.gardenguru.confirmation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/textView14"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        tools:text="Tomato added to Garden"
+        android:typeface="sans"
+        android:textSize="36sp"
+        android:lineSpacingExtra="8sp"
+        android:layout_height="wrap_content"
+        android:text="Tomato added to Garden"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="View Garden Specs"
+        android:background="@drawable/drawablehome_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button12"
+        tools:text="View Garden Specs"
+        android:textColor="@android:color/background_dark"
+        android:visibility="visible"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="View Garden Specs"
+        android:background="@drawable/drawablehome_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button11"
+        tools:text="View Garden Specs"
+        android:textColor="@android:color/background_dark"
+        android:visibility="visible"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="View Garden Specs"
+        android:background="@drawable/drawablehome_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        tools:text="View Garden Specs"
+        android:textColor="@android:color/background_dark"
+        android:visibility="visible"
+        android:layout_alignBaseline="@+id/button12"
+        android:layout_alignBottom="@+id/button12"
+        android:layout_alignStart="@+id/button12"
+        android:onClick="buttonToSpecs" />
+
+</RelativeLayout>
