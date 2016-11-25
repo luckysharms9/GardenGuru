@@ -14,4 +14,10 @@
     android:background="@color/colorPrimaryDark"
     android:backgroundTint="@color/colorPrimaryDark">
 
+    <ListView
+        android:id="@+id/garden_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
 </RelativeLayout>
