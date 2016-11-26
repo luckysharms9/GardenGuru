@@ -12,6 +12,7 @@ public class Main3Activity extends Activity {
     Button herbs;
     Button plants;
     Button vegetables;
+    Button favourites;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,7 @@ public class Main3Activity extends Activity {
         herbs = (Button) findViewById(R.id.herbs);
         plants = (Button) findViewById(R.id.plants);
         vegetables = (Button) findViewById(R.id.vegetables);
+        favourites = (Button) findViewById(R.id.favourites);
 
         // Capture button clicks
         herbs.setOnClickListener(new OnClickListener() {
@@ -49,7 +51,7 @@ public class Main3Activity extends Activity {
 
                 // Start NewActivity.class
                 Intent myIntent = new Intent(Main3Activity.this,
-                        Vegetables.class);
+                        Plants.class);
                 startActivity(myIntent);
             }
         });
@@ -59,15 +61,4 @@ public class Main3Activity extends Activity {
             getMenuInflater().inflate(R.layout.activity_main3, menu);
             return true;
         }
-
-     //public void buttonPlants(View v){
-       // Button button = (Button) v;
-        //Intent myIntent = new Intent(Main3Activity.this, Plants.class);
-        //startActivity(myIntent);
-    //}
-    //public void buttonVegetables(View v){
-      //  Button button = (Button) v;
-        //Intent myIntent = new Intent(Main3Activity.this, Vegetables.class);
-        //startActivity(myIntent);
-    //}
 }

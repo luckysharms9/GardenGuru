@@ -16,39 +16,6 @@
         android:layout_height="wrap_content"
         android:text="Welcome to Garden Guru!" />
 
-    <Button
-        android:text="Plants"
-        android:background="@drawable/drawablehome_button"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_below="@+id/herbs"
-        android:layout_alignStart="@+id/herbs"
-        android:layout_marginTop="37dp"
-        android:id="@+id/plants"
-        android:textAlignment="center" />
-
-    <Button
-        android:text="Vegetables"
-        android:background="@drawable/drawablehome_button"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:id="@+id/vegetables"
-        android:textAlignment="center"
-        android:layout_below="@+id/plants"
-        android:layout_alignStart="@+id/plants"
-        android:layout_marginTop="33dp" />
-
-
-    <Button
-        android:text="Herbs"
-        android:background="@drawable/drawablehome_button"
-        android:layout_marginTop="34dp"
-        android:id="@+id/herbs"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:textAlignment="center"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:src="@drawable/gguru"
@@ -75,27 +42,75 @@
             android:id="@+id/myText"
             android:focusable="false"
             android:focusableInTouchMode="true"
-            android:forceHasOverlappingRendering="true" />
+            android:forceHasOverlappingRendering="true"
+            android:onClick="Main2Activity" />
 
         <android.support.design.widget.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tabItem"
             android:text="Plants"
-            android:icon="@drawable/ic_action_name" />
+            android:icon="@drawable/ic_action_name"
+            android:onClick="Main3Activity" />
 
         <android.support.design.widget.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Inspire Me"
-            android:icon="@drawable/ic_action_name_light" />
+            android:icon="@drawable/ic_action_name_light"
+            android:onClick="InspirationWall" />
 
         <android.support.design.widget.TabItem
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:text="Weather"
             android:icon="@drawable/ic_action_name_sun"
-            android:layout_marginEnd="25dp" />
+            android:layout_marginEnd="25dp"
+            android:onClick="Weather" />
     </android.support.design.widget.TabLayout>
+
+    <Button
+        android:text="Favourites"
+        android:background="@drawable/drawablehome_button"
+        android:id="@+id/favourites"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/vegetables"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:text="Herbs"
+        android:background="@drawable/drawablehome_button"
+        android:layout_marginTop="35dp"
+        android:id="@+id/herbs"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/plants" />
+
+    <Button
+        android:text="Vegetables"
+        android:background="@drawable/drawablehome_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/vegetables"
+        android:textAlignment="center"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/plants"
+        android:layout_alignStart="@+id/favourites" />
+
+    <Button
+        android:text="Flowers"
+        android:background="@drawable/drawablehome_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="29dp"
+        android:id="@+id/plants"
+        android:textAlignment="center"
+        android:layout_below="@+id/herbs"
+        android:layout_alignStart="@+id/vegetables" />
 
 </RelativeLayout>
