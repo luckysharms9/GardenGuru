@@ -16,8 +16,7 @@
         android:layout_height="100dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        app:tabGravity="fill"
-        app:tabMode="scrollable">
+        app:tabGravity="fill">
 
         <android.support.design.widget.TabItem
             android:text="My Garden"
@@ -43,7 +42,6 @@
             android:icon="@drawable/ic_action_name_light" />
 
         <android.support.design.widget.TabItem
-            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:text="Weather"
             android:icon="@drawable/ic_action_name_sun" />
@@ -60,48 +58,6 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_height="75dp" />
-
-    <TextView
-        android:text="Garden Name: Tomato"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView5"
-        tools:text="Garden Name: Tomato"
-        android:textStyle="normal|bold"
-        android:textSize="24sp"
-        android:textColor="@android:color/black"
-        android:layout_marginBottom="24dp"
-        android:layout_above="@+id/textView10"
-        android:layout_alignStart="@+id/imageButton"
-        android:layout_marginStart="16dp" />
-
-    <TextView
-        android:text="Location: Kitchen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView10"
-        tools:text="Location:   Kitchen"
-        android:textStyle="normal|bold"
-        android:textSize="24sp"
-        android:textColor="@android:color/black"
-        android:layout_centerVertical="true"
-        android:layout_alignStart="@+id/textView5" />
-
-    <Button
-        android:text="Tomato"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/buttonT"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:textStyle="normal|bold"
-        android:textSize="24sp"
-        android:fontFamily="sans-serif"
-        tools:text="Tomato"
-        android:typeface="normal"
-        android:textAllCaps="false"
-        android:layout_alignBaseline="@+id/textView11"
-        android:layout_alignBottom="@+id/textView11"
-        android:layout_toEndOf="@+id/textView10" />
 
     <Button
         android:text="Edit Garden"
@@ -133,6 +89,18 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
+        android:text="Location: Kitchen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        tools:text="Location:   Kitchen"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/imageButton" />
+
+    <TextView
         android:text="Plants in Garden:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -141,9 +109,38 @@
         android:textStyle="normal|bold"
         android:textSize="24sp"
         android:textColor="@android:color/black"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="25dp"
         android:layout_below="@+id/textView10"
         android:layout_alignStart="@+id/textView10" />
+
+    <TextView
+        android:text="Garden Name: Tomato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        tools:text="Garden Name: Tomato"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp"
+        android:layout_above="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
+
+    <Button
+        android:text="Tomato"
+        android:id="@+id/buttonT"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        tools:text="Tomato"
+        android:typeface="normal"
+        android:textAllCaps="false"
+        android:layout_width="120dp"
+        android:layout_alignBaseline="@+id/textView11"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignParentEnd="true"
+        android:layout_height="50dp" />
 
 
 </RelativeLayout>
