@@ -26,7 +26,8 @@
         <activity android:name=".Herbs" />
         <activity android:name=".Plants" />
         <activity android:name=".Sunflower" />
-        <activity android:name=".Basil"></activity>
+        <activity android:name=".Basil" />
+        <activity android:name=".Weather"></activity>
     </application>
 
 </manifest>
