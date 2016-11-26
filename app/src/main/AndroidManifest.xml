@@ -19,6 +19,7 @@
         <activity android:name=".SavedGarden" />
         <activity android:name=".GardenSpecs" />
         <activity android:name=".tomatoes" />
+        <activity android:name=".InspirationWall" />
         <activity
             android:name=".Confirm"
             android:theme="@style/AppTheme.popupStyle" />
