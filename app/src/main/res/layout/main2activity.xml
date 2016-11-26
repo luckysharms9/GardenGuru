@@ -48,7 +48,9 @@
             android:focusable="false"
             android:focusableInTouchMode="true"
             android:forceHasOverlappingRendering="true"
-            android:layout_width="wrap_content" />
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:soundEffectsEnabled="false" />
 
         <android.support.design.widget.TabItem
             android:layout_width="wrap_content"

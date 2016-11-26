@@ -12,6 +12,8 @@ public class MainActivity extends Activity {
     Button mygarden;
     Button plants;
     Button weather;
+    Boolean heartValue = false;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

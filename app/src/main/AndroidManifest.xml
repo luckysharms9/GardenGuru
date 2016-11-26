@@ -32,7 +32,7 @@
         <activity android:name=".Sunflower" />
         <activity android:name=".Basil" />
         <activity android:name=".Weather" />
-        <activity android:name=".Favourites"></activity>
+        <activity android:name=".Favourites" />
     </application>
 
 </manifest>
