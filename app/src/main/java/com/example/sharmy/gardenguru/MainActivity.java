@@ -65,7 +65,6 @@ public class MainActivity extends Activity {
 
     public void buttonWeather(View v){
         Button button = (Button) v;
-        //button.setBackgroundColor(0xff00ffff);
         Intent myIntent = new Intent(MainActivity.this, Weather.class);
         startActivity(myIntent);
     }

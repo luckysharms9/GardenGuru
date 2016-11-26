@@ -91,7 +91,7 @@
         android:text="Tomato"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button4"
+        android:id="@+id/buttonT"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:textStyle="normal|bold"
         android:textSize="24sp"
