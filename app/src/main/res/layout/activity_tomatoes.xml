@@ -80,7 +80,8 @@
         app:srcCompat="@drawable/ic_nullheart"
         android:id="@+id/imageButton3"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="buttonHeart" />
 
     <TextView
         android:text="Tomatoes description goes here. When to plant, water, grow, etc."
