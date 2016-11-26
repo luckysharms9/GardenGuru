@@ -65,7 +65,7 @@ public class MainActivity extends Activity {
 
     public void buttonWeather(View v){
         Button button = (Button) v;
-        Intent myIntent = new Intent(MainActivity.this, InspirationWall.class);
+        Intent myIntent = new Intent(MainActivity.this, Weather.class);
         startActivity(myIntent);
     }
 
