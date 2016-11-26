@@ -26,6 +26,52 @@
         android:layout_below="@+id/textView12"
         android:layout_alignStart="@+id/herbs" />
 
+    <Button
+        android:text="Flowers"
+        android:background="@drawable/drawablehome_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/plants"
+        android:textAlignment="center"
+        android:onClick="buttonFlowers"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/vegetables" />
+
+    <Button
+        android:text="Vegetables"
+        android:background="@drawable/drawablehome_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/vegetables"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:onClick="buttonVegetables"
+        android:layout_below="@+id/plants"
+        android:layout_alignStart="@+id/favourites" />
+
+    <Button
+        android:text="Favourites"
+        android:background="@drawable/drawablehome_button"
+        android:id="@+id/favourites"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_marginTop="11dp"
+        android:onClick="buttonFavourites"
+        android:layout_below="@+id/vegetables"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Herbs"
+        android:background="@drawable/drawablehome_button"
+        android:layout_marginTop="33dp"
+        android:id="@+id/herbs"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/plants" />
+
     <android.support.design.widget.TabLayout
         android:layout_height="75dp"
         app:tabGravity="center"
@@ -58,58 +104,9 @@
             android:icon="@drawable/ic_action_name_light" />
 
         <android.support.design.widget.TabItem
-            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:text="Weather"
-            android:icon="@drawable/ic_action_name_sun"
-            android:layout_marginEnd="25dp" />
+            android:icon="@drawable/ic_action_name_sun" />
     </android.support.design.widget.TabLayout>
-
-    <Button
-        android:text="Favourites"
-        android:background="@drawable/drawablehome_button"
-        android:id="@+id/favourites"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:textAlignment="center"
-        android:layout_below="@+id/vegetables"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:onClick="buttonFavourites" />
-
-    <Button
-        android:text="Herbs"
-        android:background="@drawable/drawablehome_button"
-        android:layout_marginTop="35dp"
-        android:id="@+id/herbs"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:textAlignment="center"
-        android:layout_below="@+id/imageView"
-        android:layout_alignStart="@+id/plants" />
-
-    <Button
-        android:text="Vegetables"
-        android:background="@drawable/drawablehome_button"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:id="@+id/vegetables"
-        android:textAlignment="center"
-        android:layout_marginTop="28dp"
-        android:layout_below="@+id/plants"
-        android:layout_alignStart="@+id/favourites"
-        android:onClick="buttonVegetables" />
-
-    <Button
-        android:text="Flowers"
-        android:background="@drawable/drawablehome_button"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="29dp"
-        android:id="@+id/plants"
-        android:textAlignment="center"
-        android:layout_below="@+id/herbs"
-        android:layout_alignStart="@+id/vegetables"
-        android:onClick="buttonFlowers" />
 
 </RelativeLayout>
