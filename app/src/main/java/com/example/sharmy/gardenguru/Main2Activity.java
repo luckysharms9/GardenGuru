@@ -24,20 +24,7 @@ public class Main2Activity extends AppCompatActivity {
         startActivity(myIntent);
     }
 
-    public void buttonHeart(View v) {
-        TabItem myTab = (TabItem) v;
-        myTab
-        if (heartValue == false) {
-            ImageView heart = (ImageView) v;
-            ((ImageView) v).getDrawable().setTint(Color.RED);
-            heartValue = true;
-        } else {
-            ImageView heart = (ImageView) v;
-            ((ImageView) v).getDrawable().setTint(Color.BLACK);
-            heartValue = false;
-            return;
-        }
-    }
+
 
 
 
