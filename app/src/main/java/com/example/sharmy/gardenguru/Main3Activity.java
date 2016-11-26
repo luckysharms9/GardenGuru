@@ -34,25 +34,25 @@ public class Main3Activity extends Activity {
                 startActivity(myIntent);
             }
         });
-        //plants.setOnClickListener(new OnClickListener() {
-          //  public void onClick(View arg0) {
+        plants.setOnClickListener(new OnClickListener() {
+            public void onClick(View arg0) {
 
-//                // Start NewActivity.class
-            //    Intent myIntent = new Intent(Main3Activity.this,
-              //          Plants.class);
-                //startActivity(myIntent);
-            //}
-       // });
+                // Start NewActivity.class
+              Intent myIntent = new Intent(Main3Activity.this,
+                        Plants.class);
+                startActivity(myIntent);
+            }
+        });
 
-//        plants.setOnClickListener(new OnClickListener() {
-  //          public void onClick(View arg0) {
+        vegetables.setOnClickListener(new OnClickListener() {
+            public void onClick(View arg0) {
 
-//                // Start NewActivity.class
-//                Intent myIntent = new Intent(Main3Activity.this,
-  //                      Vegetables.class);
-    //            startActivity(myIntent);
-      //      }
-        //});
+                // Start NewActivity.class
+                Intent myIntent = new Intent(Main3Activity.this,
+                        Vegetables.class);
+                startActivity(myIntent);
+            }
+        });
     }
         @Override
         public boolean onCreateOptionsMenu (Menu menu){
@@ -60,16 +60,14 @@ public class Main3Activity extends Activity {
             return true;
         }
 
-     public void buttonPlants(View v){
-        Button button = (Button) v;
-        Intent myIntent = new Intent(Main3Activity.this, Plants.class);
-        startActivity(myIntent);
-    }
-    public void buttonVegetables(View v){
-        Button button = (Button) v;
-        Intent myIntent = new Intent(Main3Activity.this, Vegetables.class);
-        startActivity(myIntent);
-    }
-
-
+     //public void buttonPlants(View v){
+       // Button button = (Button) v;
+        //Intent myIntent = new Intent(Main3Activity.this, Plants.class);
+        //startActivity(myIntent);
+    //}
+    //public void buttonVegetables(View v){
+      //  Button button = (Button) v;
+        //Intent myIntent = new Intent(Main3Activity.this, Vegetables.class);
+        //startActivity(myIntent);
+    //}
 }
