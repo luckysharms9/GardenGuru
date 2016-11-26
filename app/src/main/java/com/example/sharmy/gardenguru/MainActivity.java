@@ -11,6 +11,7 @@ import android.widget.Button;
 public class MainActivity extends Activity {
     Button mygarden;
     Button plants;
+    Button weather;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,7 @@ public class MainActivity extends Activity {
         // Locate the button in activity_main.xml
         mygarden = (Button) findViewById(R.id.mygarden);
         plants = (Button) findViewById(R.id.plants);
+        weather = (Button) findViewById(R.id.weather);
 
         // Capture button clicks
         mygarden.setOnClickListener(new OnClickListener() {
@@ -61,6 +63,11 @@ public class MainActivity extends Activity {
         startActivity(myIntent);
     }
 
+    public void buttonWeather(View v){
+        Button button = (Button) v;
+        Intent myIntent = new Intent(MainActivity.this, InspirationWall.class);
+        startActivity(myIntent);
+    }
 
 
 }
