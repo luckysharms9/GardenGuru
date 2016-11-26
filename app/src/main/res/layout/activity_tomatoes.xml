@@ -77,7 +77,8 @@
     <ImageButton
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:srcCompat="@drawable/ic_nullheart"
+        android:background="@drawable/drawablehome_button"
+        app:srcCompat="@drawable/ic_favorite_black_24dp"
         android:id="@+id/imageButton3"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
@@ -118,6 +119,7 @@
 
     <Button
         android:text="Add to Garden"
+        android:background="@drawable/drawablehome_button"
         android:id="@+id/button7"
         android:layout_height="50dp"
         android:onClick="buttonConfirm"
