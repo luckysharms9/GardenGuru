@@ -1,6 +1,7 @@
 package com.example.sharmy.gardenguru;
 
 import android.content.Intent;
+import android.support.design.widget.TabItem;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -32,6 +33,33 @@ public class SavedGarden extends AppCompatActivity {
         startActivity(myIntent);
     }
 
+    public void buttonPlants(View v){
+        Button button = (Button) v;
+        Intent myIntent = new Intent(SavedGarden.this, Main3Activity.class);
+        startActivity(myIntent);
+    }
+
+    public void buttonInspireMe(View v){
+        Button button = (Button) v;
+        Intent myIntent = new Intent(SavedGarden.this, InspirationWall.class);
+        startActivity(myIntent);
+    }
+
+    public void buttonWeather(View v){
+        View tabItem = (TabItem) v;
+        Intent myIntent = new Intent(SavedGarden.this, Weather.class);
+        tabItem.setActivated(false);
+        startActivity(myIntent);
+    }
+
+
+
+
+    public void buttonMyGarden(View v){
+        View tabItem = (TabItem) v;
+        Intent myIntent = new Intent(SavedGarden.this, Main2Activity.class);
+        startActivity(myIntent);
+    }
 
 
 }
