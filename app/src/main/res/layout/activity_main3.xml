@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main3"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -11,50 +11,51 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.sharmy.gardenguru.Main3Activity">
 
-    <android.support.design.widget.TabLayout
+    <TextView
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Garden Guru!" />
+
+    <Button
+        android:text="Herbs"
+        android:background="@drawable/drawablehome_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:id="@+id/herbs"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="Plants"
+        android:background="@drawable/drawablehome_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/herbs"
+        android:layout_alignStart="@+id/herbs"
+        android:layout_marginTop="37dp"
+        android:id="@+id/plants"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="Vegetables"
+        android:background="@drawable/drawablehome_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/vegetables"
+        android:textAlignment="center"
+        android:layout_below="@+id/plants"
+        android:layout_alignStart="@+id/plants"
+        android:layout_marginTop="33dp" />
+
+
+    <ImageView
+        android:src="@drawable/gguru"
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignParentBottom="true"
-        app:tabMode="scrollable">
-
-        <android.support.design.widget.TabItem
-            android:text="My Garden"
-            android:icon="@drawable/ic_action_name_me"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/myText"
-            android:focusable="false"
-            android:focusableInTouchMode="true"
-            android:forceHasOverlappingRendering="true" />
-
-        <android.support.design.widget.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/tabItem"
-            android:text="Plants"
-            android:icon="@drawable/ic_action_name" />
-
-        <android.support.design.widget.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Inspire Me"
-            android:icon="@drawable/ic_action_name_light" />
-
-        <android.support.design.widget.TabItem
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:text="Weather"
-            android:icon="@drawable/ic_action_name_sun" />
-    </android.support.design.widget.TabLayout>
-
-    <ListView
-        android:id="@+id/listView"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:drawSelectorOnTop="false"
-        android:clickable="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
-
+        android:layout_marginTop="17dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp" />
 
 </RelativeLayout>

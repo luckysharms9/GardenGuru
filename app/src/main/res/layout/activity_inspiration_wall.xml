@@ -20,7 +20,7 @@
 
         <android.support.design.widget.TabItem
             android:text="My Garden"
-            android:icon="@drawable/ic_action_name_me"
+            android:icon="@drawable/ic_action_name"
             android:layout_height="wrap_content"
             android:id="@+id/myText"
             android:focusable="false"
