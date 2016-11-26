@@ -39,6 +39,26 @@
         android:layout_marginTop="33dp" />
 
 
+    <Button
+        android:text="Herbs"
+        android:background="@drawable/drawablehome_button"
+        android:layout_marginTop="34dp"
+        android:id="@+id/herbs"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:src="@drawable/gguru"
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/textView12"
+        android:layout_alignStart="@+id/herbs" />
+
     <android.support.design.widget.TabLayout
         android:layout_height="75dp"
         app:tabGravity="center"
@@ -74,27 +94,8 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:text="Weather"
-            android:icon="@drawable/ic_action_name_sun" />
+            android:icon="@drawable/ic_action_name_sun"
+            android:layout_marginEnd="25dp" />
     </android.support.design.widget.TabLayout>
-
-    <Button
-        android:text="Herbs"
-        android:background="@drawable/drawablehome_button"
-        android:layout_marginTop="34dp"
-        android:id="@+id/herbs"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:textAlignment="center"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true" />
-
-    <ImageView
-        android:src="@drawable/gguru"
-        android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="22dp"
-        android:layout_below="@+id/textView12"
-        android:layout_alignStart="@+id/herbs" />
 
 </RelativeLayout>
