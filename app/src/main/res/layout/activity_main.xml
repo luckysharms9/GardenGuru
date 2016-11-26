@@ -14,64 +14,76 @@
     <Button
         android:text="My Garden"
         android:background="@drawable/drawablehome_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="135dp"
         android:id="@+id/mygarden"
-        android:layout_width="100dp"
         android:layout_height="50dp"
-        android:textAlignment="center" />
-
-    <Button
-        android:text="Inspire Me!"
-        android:background="@drawable/drawablehome_button"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_below="@+id/plants"
-        android:layout_alignStart="@+id/plants"
-        android:layout_marginTop="37dp"
-        android:id="@+id/inspireme"
         android:textAlignment="center"
-        android:onClick="buttonInspireMe" />
-
-    <Button
-        android:text="Weather"
-        android:background="@drawable/drawablehome_button"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:id="@+id/weather"
-        android:textAlignment="center"
-        android:layout_below="@+id/inspireme"
-        android:layout_alignStart="@+id/inspireme"
-        android:layout_marginTop="33dp" />
+        android:layout_above="@+id/plants"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:layout_width="150dp" />
 
     <Button
         android:text="Plants"
         android:background="@drawable/drawablehome_button"
-        android:layout_width="100dp"
         android:layout_height="50dp"
         android:id="@+id/plants"
         android:textAlignment="center"
-        android:layout_marginTop="34dp"
-        android:layout_below="@+id/mygarden"
+        android:onClick="buttonPlants"
+        android:layout_marginBottom="18dp"
+        android:layout_above="@+id/inspireme"
         android:layout_alignStart="@+id/mygarden"
-        android:onClick="buttonPlants" />
+        android:layout_width="150dp" />
+
+    <Button
+        android:text="Inspire Me!"
+        android:background="@drawable/drawablehome_button"
+        android:layout_height="50dp"
+        android:id="@+id/inspireme"
+        android:textAlignment="center"
+        android:onClick="buttonInspireMe"
+        android:layout_marginBottom="14dp"
+        android:layout_above="@+id/weather"
+        android:layout_alignStart="@+id/plants"
+        android:layout_width="150dp" />
 
     <ImageView
-        android:src="@drawable/gguru"
-        android:id="@+id/imageView"
-        android:layout_width="75dp"
-        android:layout_below="@+id/textView8"
+        android:layout_width="match_parent"
+        android:src="@drawable/flower_header2"
+        android:id="@+id/imageView6"
+        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:layout_height="75dp" />
+        android:layout_height="115dp" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="Welcome to Garden Guru!"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:textSize="18sp"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black"
+        android:layout_height="40dp"
+        android:layout_width="350dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:fontFamily="sans-serif"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView6" />
+
+    <Button
+        android:text="Weather"
+        android:background="@drawable/drawablehome_button"
+        android:layout_height="50dp"
+        android:id="@+id/weather"
+        android:textAlignment="center"
+        android:layout_width="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/inspireme" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/gguru"
+        android:id="@+id/imageView7"
+        android:layout_marginBottom="14dp"
+        android:layout_above="@+id/mygarden"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

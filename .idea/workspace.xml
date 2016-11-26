@@ -10,7 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="645d0eb4-e329-4c9d-b121-213b20fb3579" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/tulip.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/flower_header.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/flower_header2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -19,14 +20,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_garden.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_garden.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_garden_specs.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_garden_specs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_inspiration_wall.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_inspiration_wall.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main3.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main3.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_saved_garden.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_saved_garden.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tomatoes.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tomatoes.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/main2activity.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/main2activity.xml" />
     </list>
     <ignored path="GardenGuru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,20 +67,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
+          <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_saved_garden.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_saved_garden.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_saved_garden.xml">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="337">
@@ -1952,7 +1947,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sharmy/gardenguru/Main3Activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sharmy/gardenguru/SavedGarden.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sharmy/gardenguru/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_garden.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_inspiration_wall.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main3.xml" />
@@ -1960,6 +1954,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/main2activity.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_garden_specs.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_saved_garden.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       </list>
     </option>
   </component>
@@ -2111,6 +2106,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2604,7 +2603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480118005509</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added button and no functionality yet. fixed layouts. Wishing for xcode!!!!!!!!!!!!!!!!!!!!!!!!">
+      <created>1480127576663</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1480127576665</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2678,7 +2684,8 @@
     <MESSAGE value="Added Inspiration Wall&#10;" />
     <MESSAGE value="Added Rachel pics" />
     <MESSAGE value="changed guru size and fixed some layout on pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed guru size and fixed some layout on pages" />
+    <MESSAGE value="added button and no functionality yet. fixed layouts. Wishing for xcode!!!!!!!!!!!!!!!!!!!!!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="added button and no functionality yet. fixed layouts. Wishing for xcode!!!!!!!!!!!!!!!!!!!!!!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2984,17 +2991,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_garden_specs.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -3026,6 +3022,17 @@
           <folding>
             <element signature="e#491#526#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
