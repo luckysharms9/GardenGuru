@@ -42,31 +42,27 @@
             android:id="@+id/myText"
             android:focusable="false"
             android:focusableInTouchMode="true"
-            android:forceHasOverlappingRendering="true"
-            android:onClick="Main2Activity" />
+            android:forceHasOverlappingRendering="true" />
 
         <android.support.design.widget.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tabItem"
             android:text="Plants"
-            android:icon="@drawable/ic_action_name"
-            android:onClick="Main3Activity" />
+            android:icon="@drawable/ic_action_name" />
 
         <android.support.design.widget.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Inspire Me"
-            android:icon="@drawable/ic_action_name_light"
-            android:onClick="InspirationWall" />
+            android:icon="@drawable/ic_action_name_light" />
 
         <android.support.design.widget.TabItem
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:text="Weather"
             android:icon="@drawable/ic_action_name_sun"
-            android:layout_marginEnd="25dp"
-            android:onClick="Weather" />
+            android:layout_marginEnd="25dp" />
     </android.support.design.widget.TabLayout>
 
     <Button

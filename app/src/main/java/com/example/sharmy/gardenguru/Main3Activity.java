@@ -59,4 +59,5 @@ public class Main3Activity extends Activity {
         Intent myIntent = new Intent(Main3Activity.this, Favourites.class);
         startActivity(myIntent);
     }
+
 }

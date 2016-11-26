@@ -67,11 +67,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="activity_main3.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_main3.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main3.xml">
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="-1095">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="102">
+              <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -90,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main3Activity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main3Activity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sharmy/gardenguru/Main3Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+            <state relative-caret-position="-536">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -1881,8 +1881,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_basil.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_garden.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_favourites.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sharmy/gardenguru/Main3Activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main3.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sharmy/gardenguru/Main3Activity.java" />
       </list>
     </option>
   </component>
@@ -2553,7 +2553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480183536490</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fixed buttons on plants">
+      <created>1480184460368</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1480184460368</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2671,7 +2678,8 @@
     <MESSAGE value="fixed plants page icon" />
     <MESSAGE value="added favourites" />
     <MESSAGE value="added favourites and some tab links" />
-    <option name="LAST_COMMIT_MESSAGE" value="added favourites and some tab links" />
+    <MESSAGE value="fixed buttons on plants" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed buttons on plants" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -3066,14 +3074,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sharmy/gardenguru/Main3Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sharmy/gardenguru/Favourites.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -3084,13 +3084,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main3.xml">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="-1095">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="102">
+          <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
           <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sharmy/gardenguru/Main3Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-536">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
