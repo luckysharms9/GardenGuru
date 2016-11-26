@@ -1,10 +1,13 @@
 package com.example.sharmy.gardenguru;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.support.design.widget.TabItem;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -19,6 +22,21 @@ public class Main2Activity extends AppCompatActivity {
         Button button = (Button) v;
         Intent myIntent = new Intent(Main2Activity.this, AddGarden.class);
         startActivity(myIntent);
+    }
+
+    public void buttonHeart(View v) {
+        TabItem myTab = (TabItem) v;
+        myTab
+        if (heartValue == false) {
+            ImageView heart = (ImageView) v;
+            ((ImageView) v).getDrawable().setTint(Color.RED);
+            heartValue = true;
+        } else {
+            ImageView heart = (ImageView) v;
+            ((ImageView) v).getDrawable().setTint(Color.BLACK);
+            heartValue = false;
+            return;
+        }
     }
 
 
