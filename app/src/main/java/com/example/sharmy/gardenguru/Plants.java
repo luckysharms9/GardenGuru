@@ -15,7 +15,6 @@ import java.util.List;
 public class Plants extends Activity {
     private ListView lv;
 
-
     public void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
         setContentView(R.layout.activity_plants);
