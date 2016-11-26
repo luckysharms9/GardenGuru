@@ -23,6 +23,9 @@
         <activity
             android:name=".Confirm"
             android:theme="@style/AppTheme.popupStyle" />
+        <activity
+            android:name=".confirmation"
+            android:theme="@style/AppTheme.popupStyle" />
         <activity android:name=".Vegetables" />
         <activity android:name=".Herbs" />
         <activity android:name=".Plants" />

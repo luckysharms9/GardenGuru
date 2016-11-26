@@ -101,8 +101,7 @@
         android:textAllCaps="false"
         android:layout_alignBaseline="@+id/textView11"
         android:layout_alignBottom="@+id/textView11"
-        android:layout_toEndOf="@+id/textView10"
-        android:onClick="buttonTomatoes" />
+        android:layout_toEndOf="@+id/textView10" />
 
     <Button
         android:text="Edit Garden"
