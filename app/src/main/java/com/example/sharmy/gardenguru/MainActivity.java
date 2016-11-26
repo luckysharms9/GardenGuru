@@ -34,16 +34,6 @@ public class MainActivity extends Activity {
                 startActivity(myIntent);
             }
         });
-       // plants.setOnClickListener(new OnClickListener() {
-       //     public void onClick(View arg0) {
-
-                // Start NewActivity.class
-        //        Intent myIntent = new Intent(MainActivity.this,
-          //              Main3Activity.class);
-            //    startActivity(myIntent);
-           // }
-        //});
-
     }
 
     @Override
@@ -68,6 +58,4 @@ public class MainActivity extends Activity {
         Intent myIntent = new Intent(MainActivity.this, Weather.class);
         startActivity(myIntent);
     }
-
-
 }
