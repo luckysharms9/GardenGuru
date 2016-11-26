@@ -91,7 +91,7 @@
         android:text="Tomato"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button4"
+        android:id="@+id/tomatoes"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:textStyle="normal|bold"
         android:textSize="24sp"
@@ -101,7 +101,8 @@
         android:textAllCaps="false"
         android:layout_alignBaseline="@+id/textView11"
         android:layout_alignBottom="@+id/textView11"
-        android:layout_toEndOf="@+id/textView10" />
+        android:layout_toEndOf="@+id/textView10"
+        android:onClick="buttonTomatoes" />
 
     <Button
         android:text="Edit Garden"
