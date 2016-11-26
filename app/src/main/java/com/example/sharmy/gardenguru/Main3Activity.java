@@ -36,29 +36,27 @@ public class Main3Activity extends Activity {
                 startActivity(myIntent);
             }
         });
-        plants.setOnClickListener(new OnClickListener() {
-            public void onClick(View arg0) {
-
-                // Start NewActivity.class
-              Intent myIntent = new Intent(Main3Activity.this,
-                        Plants.class);
-                startActivity(myIntent);
-            }
-        });
-
-        vegetables.setOnClickListener(new OnClickListener() {
-            public void onClick(View arg0) {
-
-                // Start NewActivity.class
-                Intent myIntent = new Intent(Main3Activity.this,
-                        Plants.class);
-                startActivity(myIntent);
-            }
-        });
     }
-        @Override
-        public boolean onCreateOptionsMenu (Menu menu){
-            getMenuInflater().inflate(R.layout.activity_main3, menu);
-            return true;
-        }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.layout.activity_main3, menu);
+        return true;
+    }
+
+    public void buttonFlowers(View v){
+        Button button = (Button) v;
+        Intent myIntent = new Intent(Main3Activity.this, Plants.class);
+        startActivity(myIntent);
+    }
+
+    public void buttonVegetables(View v){
+        Button button = (Button) v;
+        Intent myIntent = new Intent(Main3Activity.this, Vegetables.class);
+        startActivity(myIntent);
+    }
+    public void buttonFavourites(View v){
+        Button button = (Button) v;
+        Intent myIntent = new Intent(Main3Activity.this, Favourites.class);
+        startActivity(myIntent);
+    }
 }
