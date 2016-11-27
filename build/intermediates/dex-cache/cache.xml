@@ -3,24 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_a9bcef1e69fae6ec84b0b63d43ebfcdadc4e5d68/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_4820091547695b4be10123d385c77fdd8805ed44/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -36,15 +18,6 @@
         revision="25.0.0"
         sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
         <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_b77c9b21fc3407937206997dd9ad72ddad09c581/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/rachelsolski/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_b23340c30bae02fc16831ce1e4a3ce1960c5fdbe/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,39 +48,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3f540206b043a02e44e5beb55d5a1d200b41d83c">
-        <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1ee773b7a6d32128f17403c7ef7fe468fdea5834/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
         <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_c40294bf25d9aac4ae7181ccf971c672de8ce6de/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_aaf6c9f26cdd07bf4cad2196ef030cfe2ecea542/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
-        <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.0_f126d60a94aa20f94cdcf652c6fa8e30b7b09796/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -138,6 +84,78 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_e8e04958d95b9dfb461743bb9ad5b1bc135b7e91/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9015c368c90ed1e2ad9a3280e9c12555bf952ab8">
+        <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_15910b9532e8e60243bbbc4795c396c462d38a27/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_a9bcef1e69fae6ec84b0b63d43ebfcdadc4e5d68/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_4820091547695b4be10123d385c77fdd8805ed44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rachelsolski/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_b23340c30bae02fc16831ce1e4a3ce1960c5fdbe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb399dc87e313af4a0784482f9ff3dec4adbcf5f">
+        <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1ee773b7a6d32128f17403c7ef7fe468fdea5834/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_aaf6c9f26cdd07bf4cad2196ef030cfe2ecea542/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.0_f126d60a94aa20f94cdcf652c6fa8e30b7b09796/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -162,24 +180,6 @@
         revision="25.0.0"
         sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
         <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_249228767fcc4609ed91e0eb881ce433c456d8c4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_e8e04958d95b9dfb461743bb9ad5b1bc135b7e91/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1cf21d1977f71b068754b7d17de7803da41b08d0">
-        <dex dex="/Users/rachelsolski/Desktop/481-Project/GardenGuru/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_15910b9532e8e60243bbbc4795c396c462d38a27/classes.dex" />
     </item>
 
 </items>
