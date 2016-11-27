@@ -9,10 +9,26 @@ import android.widget.Button;
 
 public class SavedGarden extends AppCompatActivity {
 
+    Button button6;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_saved_garden);
+
+        button6 = (Button) findViewById(R.id.button6);
+
+        // Capture button clicks
+        button6.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+
+                // Start NewActivity.class
+                Intent myIntent = new Intent(SavedGarden.this,
+                        tasks_list.class);
+                startActivity(myIntent);
+            }
+        });
+
     }
 
     public void buttonAddPlant(View v){

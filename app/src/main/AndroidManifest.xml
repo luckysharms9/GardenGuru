@@ -33,6 +33,8 @@
         <activity android:name=".Basil" />
         <activity android:name=".Weather" />
         <activity android:name=".Favourites" />
+        <activity android:name=".tasks_list" />
+        <activity android:name=".task_info"></activity>
     </application>
 
 </manifest>
