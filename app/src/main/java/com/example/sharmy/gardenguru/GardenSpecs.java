@@ -37,4 +37,11 @@ public class GardenSpecs extends AppCompatActivity {
         startActivity(myIntent);
     }
 
+
+    public void buttonHome(View v){
+        Intent myIntent = new Intent(this, MainActivity.class);
+        startActivity(myIntent);
+    }
+
+
 }

@@ -24,6 +24,11 @@ public class Main2Activity extends AppCompatActivity {
         startActivity(myIntent);
     }
 
+    public void buttonHome(View v){
+        Intent myIntent = new Intent(Main2Activity.this, MainActivity.class);
+        startActivity(myIntent);
+    }
+
 
 
 

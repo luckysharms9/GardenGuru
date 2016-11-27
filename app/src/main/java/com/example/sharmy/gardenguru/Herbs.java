@@ -53,4 +53,12 @@ public class Herbs extends Activity {
             }
         });
     }
+
+
+
+    public void buttonHome(View v){
+        Intent myIntent = new Intent(this, MainActivity.class);
+        startActivity(myIntent);
+    }
+
 }

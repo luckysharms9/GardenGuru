@@ -5,18 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <ImageButton
-        app:srcCompat="@drawable/gguru"
-        android:id="@+id/imageButton"
-        android:background="@android:color/background_light"
-        android:layout_marginStart="17dp"
-        android:scaleType="fitEnd"
-        android:layout_width="75dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="14dp"
-        android:layout_height="75dp" />
-
     <TextView
         android:text="My Garden"
         android:layout_width="wrap_content"
@@ -85,5 +73,18 @@
         android:onClick="button4"
         android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        app:srcCompat="@drawable/gguru"
+        android:id="@+id/imageButton"
+        android:background="@android:color/background_light"
+        android:layout_marginStart="13dp"
+        android:scaleType="fitEnd"
+        android:layout_width="75dp"
+        android:layout_marginTop="14dp"
+        android:layout_height="75dp"
+        android:onClick="buttonHome"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

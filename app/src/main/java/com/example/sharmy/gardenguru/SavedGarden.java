@@ -78,4 +78,11 @@ public class SavedGarden extends AppCompatActivity {
     }
 
 
+
+    public void buttonHome(View v){
+        Intent myIntent = new Intent(SavedGarden.this, MainActivity.class);
+        startActivity(myIntent);
+    }
+
+
 }

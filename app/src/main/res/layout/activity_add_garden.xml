@@ -120,16 +120,6 @@
         android:layout_marginTop="77dp"
         android:textSize="40sp" />
 
-    <ImageButton
-        android:src="@drawable/gguru"
-        android:id="@+id/imageButton2"
-        android:background="@android:color/background_light"
-        android:scaleType="fitEnd"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_width="75dp"
-        android:layout_height="75dp" />
-
     <Button
         android:text="Save"
         android:background="@drawable/drawablehome_button"
@@ -141,6 +131,17 @@
         android:layout_below="@+id/editText3"
         android:layout_alignEnd="@+id/editText3"
         android:layout_marginTop="13dp" />
+
+    <ImageButton
+        android:src="@drawable/gguru"
+        android:id="@+id/imageButton2"
+        android:background="@android:color/background_light"
+        android:scaleType="fitEnd"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:onClick="buttonHome" />
 
 
 </RelativeLayout>
