@@ -16,7 +16,8 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_alignParentBottom="true"
-        app:tabMode="scrollable">
+        app:tabMode="scrollable"
+        app:tabIndicatorColor="?android:attr/colorForegroundInverse">
 
         <android.support.design.widget.TabItem
             android:text="My Garden"

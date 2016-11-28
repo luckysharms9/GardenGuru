@@ -12,54 +12,6 @@
     tools:context="com.example.sharmy.gardenguru.SavedGarden">
 
 
-    <android.support.design.widget.TabLayout
-        android:layout_height="75dp"
-        app:tabGravity="center"
-        android:layout_width="375dp"
-        android:layout_alignParentBottom="true"
-        android:paddingEnd="0dp"
-        android:paddingStart="0dp"
-        app:tabPaddingEnd="0dp"
-        app:tabPaddingStart="0dp">
-
-        <android.support.design.widget.TabItem
-            android:text="My Garden"
-            android:icon="@drawable/my_garden"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/myText"
-            android:focusable="false"
-            android:focusableInTouchMode="true"
-            android:forceHasOverlappingRendering="true"
-            android:paddingEnd="0dp"
-            android:paddingStart="0dp" />
-
-        <android.support.design.widget.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/tabItem"
-            android:text="Plants"
-            android:icon="@drawable/ic_action_name"
-            android:paddingEnd="0dp"
-            android:paddingStart="0dp" />
-
-        <android.support.design.widget.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Inspire Me"
-            android:icon="@drawable/ic_action_name_light"
-            android:paddingEnd="0dp"
-            android:paddingStart="0dp" />
-
-        <android.support.design.widget.TabItem
-            android:text="Weather"
-            android:icon="@drawable/ic_action_name_sun"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingEnd="0dp"
-            android:paddingStart="0dp" />
-    </android.support.design.widget.TabLayout>
-
     <Button
         android:text="Add New Garden"
         android:id="@+id/button9"
@@ -156,6 +108,56 @@
         android:onClick="buttonHome"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
+
+    <android.support.design.widget.TabLayout
+        android:layout_height="75dp"
+        app:tabGravity="center"
+        android:layout_width="375dp"
+        android:paddingEnd="0dp"
+        android:paddingStart="0dp"
+        app:tabPaddingEnd="0dp"
+        app:tabPaddingStart="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView15"
+        app:tabIndicatorColor="?android:attr/colorForegroundInverse">
+
+        <android.support.design.widget.TabItem
+            android:text="My Garden"
+            android:icon="@drawable/my_garden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/myText"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:forceHasOverlappingRendering="true"
+            android:paddingEnd="0dp"
+            android:paddingStart="0dp" />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tabItem"
+            android:text="Plants"
+            android:icon="@drawable/ic_action_name"
+            android:paddingEnd="0dp"
+            android:paddingStart="0dp" />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inspire Me"
+            android:icon="@drawable/ic_action_name_light"
+            android:paddingEnd="0dp"
+            android:paddingStart="0dp" />
+
+        <android.support.design.widget.TabItem
+            android:text="Weather"
+            android:icon="@drawable/ic_action_name_sun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="0dp"
+            android:paddingStart="0dp" />
+    </android.support.design.widget.TabLayout>
 
 
 </RelativeLayout>

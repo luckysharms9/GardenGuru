@@ -19,7 +19,8 @@
         android:paddingEnd="0dp"
         android:paddingStart="0dp"
         app:tabPaddingEnd="0dp"
-        app:tabPaddingStart="0dp">
+        app:tabPaddingStart="0dp"
+        app:tabIndicatorColor="?android:attr/colorForegroundInverse">
 
         <android.support.design.widget.TabItem
             android:text="My Garden"

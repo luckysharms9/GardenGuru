@@ -9,6 +9,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.example.sharmy.gardenguru.dummy.CustomListAdapter;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,6 +21,12 @@ public class Vegetables extends Activity {
     public void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
         setContentView(R.layout.activity_vegetables);
+        Integer[] imageId = {R.drawable.potato, R.drawable.tomatoes};
+        String[] veglist = {"Potatoes","Tomatoes"};
+        CustomListAdapter arrayAdapter=new CustomListAdapter(this,veglist, imageId);
+
+
+
 
         lv = (ListView) findViewById(R.id.listView);
 
@@ -27,14 +35,18 @@ public class Vegetables extends Activity {
         vegetables_array_list.add("Potatoes");
         vegetables_array_list.add("Tomatoes");
 
+
+
+
+
         // This is the array adapter, it takes the context of the activity as a
         // first parameter, the type of list view as a second parameter and your
         // array as a third parameter.
-
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(
-                this,
-                android.R.layout.simple_list_item_1,
-                vegetables_array_list);
+//
+//        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(
+//                this,
+//                android.R.layout.simple_list_item_1,
+//                vegetables_array_list);
 
         lv.setAdapter(arrayAdapter);
 
