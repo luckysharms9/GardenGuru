@@ -32,7 +32,19 @@ public class Favourites extends AppCompatActivity {
                 this,
                 android.R.layout.simple_list_item_1,
                 favourites_array_list);
-    }
+
+    lv.setAdapter(arrayAdapter);
+
+    lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        @Override
+        public void onItemClick(AdapterView<?> arrayAdapter, View view, int position, long arg) {
+            if (position == 0) {
+                Intent appInfo = new Intent(Favourites.this, tomatoes.class);
+                startActivity(appInfo);
+            }
+        }
+    });
+}
 
 
     public void buttonHome(View v){
