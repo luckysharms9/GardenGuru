@@ -48,16 +48,6 @@
             android:icon="@drawable/ic_action_name_sun" />
     </android.support.design.widget.TabLayout>
 
-    <ImageButton
-        android:src="@drawable/gguru"
-        android:id="@+id/imageButton2"
-        android:background="@android:color/background_light"
-        android:scaleType="fitEnd"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_width="75dp"
-        android:layout_height="75dp" />
-
     <Button
         android:text="Add New Garden"
         android:id="@+id/button9"
@@ -70,22 +60,6 @@
         android:layout_marginTop="39dp"
         android:layout_below="@+id/button6"
         android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:text="My Garden"
-        android:layout_width="275dp"
-        android:id="@+id/AddGardenTitle"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:fontFamily="casual"
-        android:textStyle="normal|bold"
-        android:textColor="@android:color/black"
-        tools:text="My Garden"
-        android:layout_marginTop="33dp"
-        android:textAlignment="center"
-        android:layout_height="75dp"
-        android:layout_marginStart="11dp"
-        android:layout_below="@+id/imageButton2"
-        android:layout_alignStart="@+id/textView" />
 
     <TextView
         android:text="Tomato:"
@@ -146,6 +120,30 @@
         android:layout_width="350dp"
         android:layout_alignTop="@+id/textView"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="My Garden"
+        android:layout_width="275dp"
+        android:id="@+id/AddGardenTitle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black"
+        tools:text="My Garden"
+        android:layout_marginTop="36dp"
+        android:textAlignment="center"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <ImageView
+        android:src="@drawable/gguru"
+        android:id="@+id/imageView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:onClick="buttonHome"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>

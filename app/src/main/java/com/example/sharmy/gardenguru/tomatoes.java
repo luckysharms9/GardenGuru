@@ -40,6 +40,11 @@ public class tomatoes extends AppCompatActivity {
     }
 
 
+    public void buttonHome(View v){
+        Intent myIntent = new Intent(this, MainActivity.class);
+        startActivity(myIntent);
+    }
+
 
 
 }

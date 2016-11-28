@@ -10,6 +10,7 @@ import android.widget.Button;
 public class GardenSpecs extends AppCompatActivity {
     Button buttonT;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,5 +36,12 @@ public class GardenSpecs extends AppCompatActivity {
         Intent myIntent = new Intent(GardenSpecs.this, tomatoes.class);
         startActivity(myIntent);
     }
+
+
+    public void buttonHome(View v){
+        Intent myIntent = new Intent(this, MainActivity.class);
+        startActivity(myIntent);
+    }
+
 
 }

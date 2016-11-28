@@ -33,4 +33,14 @@ public class Favourites extends AppCompatActivity {
                 android.R.layout.simple_list_item_1,
                 favourites_array_list);
     }
+
+
+    public void buttonHome(View v){
+        Intent myIntent = new Intent(this, MainActivity.class);
+        startActivity(myIntent);
     }
+
+
+
+
+}
