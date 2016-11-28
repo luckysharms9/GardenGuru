@@ -62,7 +62,8 @@
     <SearchView
         android:layout_width="400dp"
         android:layout_height="70dp"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_green_light" />
 
     <ListView
         android:id="@+id/listView"
