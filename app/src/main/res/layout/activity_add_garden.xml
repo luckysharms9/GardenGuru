@@ -62,13 +62,14 @@
         android:layout_alignStart="@+id/imageButton2" />
 
     <android.support.design.widget.TabLayout
-        android:layout_marginTop="50dp"
         android:layout_height="75dp"
-        android:layout_below="@+id/button2"
-        android:layout_alignParentStart="true"
         app:tabGravity="center"
         android:layout_width="375dp"
-        app:tabMode="scrollable">
+        android:layout_alignParentBottom="true"
+        android:paddingEnd="0dp"
+        android:paddingStart="0dp"
+        app:tabPaddingEnd="0dp"
+        app:tabPaddingStart="0dp">
 
         <android.support.design.widget.TabItem
             android:text="My Garden"
@@ -79,7 +80,8 @@
             android:focusable="false"
             android:focusableInTouchMode="true"
             android:forceHasOverlappingRendering="true"
-            android:onClick="Main2Activity" />
+            android:paddingEnd="0dp"
+            android:paddingStart="0dp" />
 
         <android.support.design.widget.TabItem
             android:layout_width="wrap_content"
@@ -87,21 +89,24 @@
             android:id="@+id/tabItem"
             android:text="Plants"
             android:icon="@drawable/ic_action_name"
-            android:onClick="Main3Activity" />
+            android:paddingEnd="0dp"
+            android:paddingStart="0dp" />
 
         <android.support.design.widget.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Inspire Me"
             android:icon="@drawable/ic_action_name_light"
-            android:onClick="InspirationWall" />
+            android:paddingEnd="0dp"
+            android:paddingStart="0dp" />
 
         <android.support.design.widget.TabItem
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
             android:text="Weather"
             android:icon="@drawable/ic_action_name_sun"
-            android:onClick="Weather" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="0dp"
+            android:paddingStart="0dp" />
     </android.support.design.widget.TabLayout>
 
     <TextView
