@@ -16,8 +16,11 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_alignParentBottom="true"
-        app:tabMode="scrollable"
-        app:tabIndicatorColor="?android:attr/colorForegroundInverse">
+        app:tabIndicatorColor="?android:attr/colorForegroundInverse"
+        android:paddingEnd="0dp"
+        android:paddingStart="0dp"
+        app:tabPaddingEnd="0dp"
+        app:tabPaddingStart="0dp">
 
         <android.support.design.widget.TabItem
             android:text="My Garden"
@@ -62,7 +65,7 @@
     <Button
         android:text="Add New Garden"
         android:id="@+id/button9"
-        android:background="@drawable/drawable_square"
+        android:background="@drawable/drawablehome_button"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="150dp"
         android:layout_height="40dp"
