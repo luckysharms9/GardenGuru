@@ -19,7 +19,8 @@
         android:paddingEnd="0dp"
         android:paddingStart="0dp"
         app:tabPaddingEnd="0dp"
-        app:tabPaddingStart="0dp">
+        app:tabPaddingStart="0dp"
+        app:tabIndicatorColor="?android:attr/colorForegroundInverse">
 
         <android.support.design.widget.TabItem
             android:text="My Garden"
@@ -63,7 +64,7 @@
         android:layout_width="400dp"
         android:layout_height="70dp"
         android:layout_centerHorizontal="true"
-        android:background="@android:color/holo_green_light" />
+        android:background="@drawable/drawable_non_click" />
 
     <ListView
         android:id="@+id/listView"

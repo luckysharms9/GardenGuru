@@ -11,15 +11,35 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.sharmy.gardenguru.Vegetables">
 
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:drawSelectorOnTop="false"
+        android:clickable="true"
+        android:layout_above="@+id/tabLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="23dp"
+        android:layout_marginTop="75dp" />
+
+    <SearchView
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:background="@drawable/drawable_non_click"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
     <android.support.design.widget.TabLayout
         android:layout_height="75dp"
         app:tabGravity="center"
         android:layout_width="375dp"
-        android:layout_alignParentBottom="true"
         android:paddingEnd="0dp"
         android:paddingStart="0dp"
         app:tabPaddingEnd="0dp"
-        app:tabPaddingStart="0dp">
+        app:tabPaddingStart="0dp"
+        android:layout_below="@+id/listView"
+        android:layout_alignParentStart="true"
+        app:tabIndicatorColor="?android:attr/colorForegroundInverse">
 
         <android.support.design.widget.TabItem
             android:text="My Garden"
@@ -58,23 +78,6 @@
             android:paddingEnd="0dp"
             android:paddingStart="0dp" />
     </android.support.design.widget.TabLayout>
-
-    <SearchView
-        android:layout_width="400dp"
-        android:layout_height="70dp"
-        android:layout_centerHorizontal="true"
-        android:background="@android:color/holo_green_light" />
-
-    <ListView
-        android:id="@+id/listView"
-        android:layout_width="400dp"
-        android:layout_height="300dp"
-        android:drawSelectorOnTop="false"
-        android:clickable="true"
-        android:layout_above="@+id/tabLayout"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="23dp"
-        android:layout_marginTop="75dp" />
 
 
 </RelativeLayout>
